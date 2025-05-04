@@ -6,7 +6,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    background: #262626;
+    background: black;
     overflow: hidden;
     }
 h{
@@ -23,7 +23,7 @@ p{
     background-position: center;
     background-attachment: fixed;
     -webkit-background-clip: text;
-   -webkit-text-fill-color: rgba(255,255,255,0);
+   -webkit-text-fill-color: white;
    max-height: 75vh;
     overflow-y: auto;
     width: 90%;
