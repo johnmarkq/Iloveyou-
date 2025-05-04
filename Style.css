@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial; 
     display: flex;
-    align-items: center;
+    align-items: right;
     height: 100vh;
     background: black;
     }
@@ -17,7 +17,7 @@ p{
     -webkit-background-clip: text;
    -webkit-text-fill-color: rgba(255,255,255,0.1);
     transition: .9s;
-    animation: rotate 2.5s linear infinite;
+    animation: rotate 1.5s linear infinite;
 }
 @keyframes rotate{
     0%{
