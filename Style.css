@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial; 
+    font-family: Arial;
+    flex-direction: column;
     display: flex;
     align-items: center;
     height: 100vh;
     background: #262626;
+    overflow: hidden;
     }
 p{
     font-size: 15px;
@@ -16,4 +18,43 @@ p{
     background-attachment: fixed;
     -webkit-background-clip: text;
    -webkit-text-fill-color: rgba(255,255,255,0);
+   max-height: 85vh;
+    overflow-y: auto;
+    width: 90%;
+       
 }
+
+button {
+    position: relative;
+    z-index: 999;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #ff4081;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1e70;
+    transform: scale(1.1);
+}
+
+audio {
+    display: none;
+}
+
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
