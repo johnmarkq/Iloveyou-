@@ -23,6 +23,7 @@ body {
             z-index: 1;
         }
 p{
+    z-index: 0; 
     font-size: 18px;
     line-height: 15.5px;
     background-image:  url(marie.jpg);
