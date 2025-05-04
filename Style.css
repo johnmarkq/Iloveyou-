@@ -10,8 +10,8 @@ body {
     overflow: hidden;
     }
 p{
-    font-size: 15px;
-    line-height: 14.5px;
+    font-size: 12px;
+    line-height: 10px;
     background-image:  url(marie3.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -20,7 +20,7 @@ p{
    -webkit-text-fill-color: rgba(255,255,255,0);
    max-height: 75vh;
     overflow-y: auto;
-    width: 90%;
+    width: 100%;
        
 }
 
