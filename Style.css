@@ -9,16 +9,18 @@ body {
     }
 
 #player {
-            display: none; /* Hides the default audio controls */
+            display: none;
         }
         .toggle-btn {
-            font-size: 30px;
+            position: absolute;
+            font-size: 116px;
             padding: 10px;
             cursor: pointer;
             background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 5px;
+            z-index: 1;
         }
 p{
     font-size: 18px;
