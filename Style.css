@@ -7,21 +7,6 @@ body {
     height: 100vh;
     background: black;
     }
-
-#player {
-            display: none;
-        }
-        .toggle-btn {
-            position: absolute;
-            font-size: 116px;
-            padding: 10px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            z-index: 1;
-        }
 p{
     z-index: 0; 
     font-size: 18px;
