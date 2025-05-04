@@ -84,5 +84,20 @@ again until I found her I said, "I would never love you love you
 
 </p>
 
-<audio id="player" autoplay loop controls> <source src="love.mp3" type="audio/mp3"></audio>
+<audio id="player" autoplay loop>
+        <source src="love.mp3" type="audio/mp3">
+    </audio>
+    
+    <button class="toggle-btn" onclick="toggleAudio()">Play/Pause</button>
+</body>
+    <script>
+        const audio = document.getElementById('player');
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
 </html>
