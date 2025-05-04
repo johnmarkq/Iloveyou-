@@ -17,11 +17,3 @@ p{
     -webkit-background-clip: text;
    -webkit-text-fill-color: rgba(255,255,255,0);
 }
-@keyframes rotate{
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
-}
