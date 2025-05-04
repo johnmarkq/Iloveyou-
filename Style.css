@@ -7,6 +7,19 @@ body {
     height: 100vh;
     background: black;
     }
+
+#player {
+            display: none; /* Hides the default audio controls */
+        }
+        .toggle-btn {
+            font-size: 30px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
 p{
     font-size: 18px;
     line-height: 15.5px;
