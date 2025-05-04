@@ -8,8 +8,8 @@ body {
     background: black;
     }
 p{
-    font-size: 15px;
-    line-height: 14.5px;
+    font-size: 18px;
+    line-height: 15.5px;
     background-image:  url(marie.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@ p{
         filter: hue-rotate(0deg);
     }
     100%{
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(0deg);
     }
 }
 
