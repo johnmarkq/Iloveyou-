@@ -9,6 +9,11 @@ body {
     background: #262626;
     overflow: hidden;
     }
+h{
+    font-size: 28px;
+    font-family: Georgia;
+    
+}
 p{
     font-size: 18px;
     line-height: 15.5px;
