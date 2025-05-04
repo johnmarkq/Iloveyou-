@@ -18,7 +18,7 @@ p{
     background-attachment: fixed;
     -webkit-background-clip: text;
    -webkit-text-fill-color: rgba(255,255,255,0);
-   max-height: 70vh;
+   max-height: 75vh;
     overflow-y: auto;
     width: 90%;
        
