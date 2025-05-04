@@ -77,15 +77,29 @@ within the darkness, but then I found her
 I found you
 Georgia, wrap me up in all your
 I want you in my arms Oh, let me hold you
-I would never fall in love again
-until I found her I said, "I would never fall
-unless it's you I fall into" I was lost
-within the darkness, but then I found her
-I found you
-Georgia, wrap me up in all your
-I want you in my arms Oh, let me hold you
+
 
 </p>
+<button onclick="toggleMusic()">Play</button>
 
-<audio id="player" autoplay loop controls> <source src="love.mp3" type="audio/mp3"></audio>
+    <audio id="player" autoplay loop>
+        <source src="love.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        const audio = document.getElementById('player');
+        let isPlaying = true;
+
+        function toggleMusic() {
+            if (isPlaying) {
+                audio.pause();
+            } else {
+                audio.play();
+            }
+            isPlaying = !isPlaying;
+        }
+    </script>
+
+</body>
 </html>
